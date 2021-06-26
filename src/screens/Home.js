@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,7 +15,6 @@ import company from '../assests/company.png';
 
 import Layout from '../components/Layout';
 import CategoryCard from '../components/CategoryCard';
-import ProductCard from '../components/ProductCard';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import Heading from '../components/Heading';

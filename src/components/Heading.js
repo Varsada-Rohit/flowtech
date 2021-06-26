@@ -17,7 +17,10 @@ export default function Heading({ text }) {
             transition={{ duration: 0.4 }}
             animate={inView ? { width: 'auto' } : { width: 0 }}
             className='my'
-            style={{ display: 'flex', justifyContent: 'center' }}
+            style={{
+               display: 'flex',
+               justifyContent: 'center',
+            }}
          >
             <div
                className='text-center category-header'
