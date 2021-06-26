@@ -13,14 +13,11 @@ export default function Heading({ text }) {
          style={{ display: 'flex', justifyContent: 'center', margin: '3rem 0' }}
       >
          <motion.div
-            initial={{ width: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             transition={{ duration: 0.4 }}
-            animate={inView ? { width: 'auto' } : { width: 0 }}
+            animate={inView ? { x: 0, opacity: 1 } : { x: -100, opacity: 0 }}
             className='my'
-            style={{
-               display: 'flex',
-               justifyContent: 'center',
-            }}
+            style={{ display: 'flex', justifyContent: 'center', width: 'auto' }}
          >
             <div
                className='text-center category-header'
