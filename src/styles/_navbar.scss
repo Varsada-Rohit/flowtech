@@ -11,9 +11,11 @@ $red: #ca2026;
 }
 .icon-container {
    font-size: 1.5rem;
-   color: black;
-   cursor: pointer;
    display: flex;
+   a {
+      cursor: pointer;
+      color: black;
+   }
    i {
       margin: 0 1rem;
    }

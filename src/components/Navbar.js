@@ -47,12 +47,14 @@ function Navbar() {
          </div>
          <div className='icon-container'>
             <div className='mail'>
-               {/* <Link href='mailto:flowtecLinkhpolymers@gmail.com'> */}
-               <i className='far fa-envelope'></i>
-               {/* </Link> */}
+               <a href='mailto:flowtecLinkhpolymers@gmail.com'>
+                  <i className='far fa-envelope'></i>
+               </a>
             </div>
             <div className='phone'>
-               <i className='fas fa-phone'></i>
+               <a href='tel:+919712022140'>
+                  <i className='fas fa-phone'></i>
+               </a>
             </div>
             <div
                className='hamburger'
